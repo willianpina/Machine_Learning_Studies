@@ -211,7 +211,7 @@ node {
     key: "else_branch"
     value {
       func {
-        name: "global_step_cond_false_15"
+        name: "global_step_cond_false_806"
       }
     }
   }
@@ -228,7 +228,7 @@ node {
     key: "then_branch"
     value {
       func {
-        name: "global_step_cond_true_14"
+        name: "global_step_cond_true_805"
       }
     }
   }
@@ -732,7 +732,7 @@ node {
     key: "f"
     value {
       func {
-        name: "__inference_Dataset_interleave_classfunctools.partial_50"
+        name: "__inference_Dataset_interleave_classfunctools.partial_841"
         attr {
           key: "_tf_data_function"
           value {
@@ -990,7 +990,7 @@ node {
     key: "f"
     value {
       func {
-        name: "__inference_Dataset_map_parse_and_decode_79"
+        name: "__inference_Dataset_map_parse_and_decode_870"
         attr {
           key: "_tf_data_function"
           value {
@@ -1729,7 +1729,7 @@ node {
     key: "f"
     value {
       func {
-        name: "__inference_Dataset_interleave_classfunctools.partial_108"
+        name: "__inference_Dataset_interleave_classfunctools.partial_899"
         attr {
           key: "_tf_data_function"
           value {
@@ -1987,7 +1987,7 @@ node {
     key: "f"
     value {
       func {
-        name: "__inference_Dataset_map_parse_and_decode_137"
+        name: "__inference_Dataset_map_parse_and_decode_928"
         attr {
           key: "_tf_data_function"
           value {
@@ -2323,7 +2323,7 @@ node {
     key: "f"
     value {
       func {
-        name: "__inference_Dataset_map_preprocess_158"
+        name: "__inference_Dataset_map_preprocess_949"
         attr {
           key: "_tf_data_function"
           value {
@@ -4178,7 +4178,7 @@ node {
     key: "else_branch"
     value {
       func {
-        name: "dnn_zero_fraction_cond_false_206"
+        name: "dnn_zero_fraction_cond_false_997"
       }
     }
   }
@@ -4205,7 +4205,7 @@ node {
     key: "then_branch"
     value {
       func {
-        name: "dnn_zero_fraction_cond_true_205"
+        name: "dnn_zero_fraction_cond_true_996"
       }
     }
   }
@@ -5393,7 +5393,7 @@ node {
     key: "else_branch"
     value {
       func {
-        name: "dnn_zero_fraction_1_cond_false_276"
+        name: "dnn_zero_fraction_1_cond_false_1067"
       }
     }
   }
@@ -5420,7 +5420,7 @@ node {
     key: "then_branch"
     value {
       func {
-        name: "dnn_zero_fraction_1_cond_true_275"
+        name: "dnn_zero_fraction_1_cond_true_1066"
       }
     }
   }
@@ -6582,7 +6582,7 @@ node {
     key: "else_branch"
     value {
       func {
-        name: "dnn_zero_fraction_2_cond_false_345"
+        name: "dnn_zero_fraction_2_cond_false_1136"
       }
     }
   }
@@ -6609,7 +6609,7 @@ node {
     key: "then_branch"
     value {
       func {
-        name: "dnn_zero_fraction_2_cond_true_344"
+        name: "dnn_zero_fraction_2_cond_true_1135"
       }
     }
   }
@@ -9347,7 +9347,7 @@ node {
     key: "else_branch"
     value {
       func {
-        name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_false_461"
+        name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_false_1252"
       }
     }
   }
@@ -9364,7 +9364,7 @@ node {
     key: "then_branch"
     value {
       func {
-        name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_true_460"
+        name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_true_1251"
       }
     }
   }
@@ -9654,7 +9654,7 @@ node {
     key: "else_branch"
     value {
       func {
-        name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_false_486"
+        name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_false_1277"
       }
     }
   }
@@ -9671,7 +9671,7 @@ node {
     key: "then_branch"
     value {
       func {
-        name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_true_485"
+        name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_true_1276"
       }
     }
   }
@@ -13840,7 +13840,7 @@ node {
   attr {
     key: "_gradient_op_type"
     value {
-      s: "CustomGradient-624"
+      s: "CustomGradient-1415"
     }
   }
   attr {
@@ -18606,22 +18606,139 @@ node {
 library {
   function {
     signature {
-      name: "__inference_Dataset_map_parse_and_decode_137"
+      name: "dnn_zero_fraction_2_cond_true_1135"
       input_arg {
-        name: "args_0"
-        type: DT_STRING
+        name: "count_nonzero_notequal_dnn_logits_biasadd"
+        type: DT_FLOAT
       }
       output_arg {
-        name: "identity"
-        type: DT_UINT8
-      }
-      output_arg {
-        name: "identity_1"
+        name: "cast"
         type: DT_INT64
+      }
+      output_arg {
+        name: "optionalfromvalue"
+        type: DT_VARIANT
+      }
+      output_arg {
+        name: "optionalfromvalue_1"
+        type: DT_VARIANT
+      }
+      output_arg {
+        name: "optionalfromvalue_2"
+        type: DT_VARIANT
+      }
+      output_arg {
+        name: "optionalfromvalue_3"
+        type: DT_VARIANT
+      }
+      output_arg {
+        name: "optionalfromvalue_4"
+        type: DT_VARIANT
       }
     }
     node_def {
-      name: "ParseSingleExample/ParseExample/Const"
+      name: "count_nonzero/zeros"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_FLOAT
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_FLOAT
+            tensor_shape {
+            }
+            float_val: 0.0
+          }
+        }
+      }
+    }
+    node_def {
+      name: "count_nonzero/NotEqual"
+      op: "NotEqual"
+      input: "count_nonzero_notequal_dnn_logits_biasadd"
+      input: "count_nonzero/zeros:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_FLOAT
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: -1
+              }
+              dim {
+                size: 10
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "incompatible_shape_error"
+        value {
+          b: true
+        }
+      }
+    }
+    node_def {
+      name: "count_nonzero/Cast"
+      op: "Cast"
+      input: "count_nonzero/NotEqual:z:0"
+      attr {
+        key: "DstT"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "SrcT"
+        value {
+          type: DT_BOOL
+        }
+      }
+      attr {
+        key: "Truncate"
+        value {
+          b: false
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: -1
+              }
+              dim {
+                size: 10
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "count_nonzero/Const"
       op: "Const"
       attr {
         key: "_output_shapes"
@@ -18629,7 +18746,364 @@ library {
           list {
             shape {
               dim {
+                size: 2
               }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT32
+            tensor_shape {
+              dim {
+                size: 2
+              }
+            }
+            tensor_content: "\000\000\000\000\001\000\000\000"
+          }
+        }
+      }
+    }
+    node_def {
+      name: "count_nonzero/nonzero_count"
+      op: "Sum"
+      input: "count_nonzero/Cast:y:0"
+      input: "count_nonzero/Const:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "Tidx"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "keep_dims"
+        value {
+          b: false
+        }
+      }
+    }
+    node_def {
+      name: "Cast"
+      op: "Cast"
+      input: "count_nonzero/nonzero_count:output:0"
+      attr {
+        key: "DstT"
+        value {
+          type: DT_INT64
+        }
+      }
+      attr {
+        key: "SrcT"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "Truncate"
+        value {
+          b: false
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "OptionalFromValue"
+      op: "OptionalFromValue"
+      input: "count_nonzero/zeros:output:0"
+      attr {
+        key: "Toutput_types"
+        value {
+          list {
+            type: DT_FLOAT
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_OPTIONAL
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_FLOAT
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "OptionalFromValue_1"
+      op: "OptionalFromValue"
+      input: "count_nonzero/NotEqual:z:0"
+      attr {
+        key: "Toutput_types"
+        value {
+          list {
+            type: DT_BOOL
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_OPTIONAL
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_BOOL
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "OptionalFromValue_2"
+      op: "OptionalFromValue"
+      input: "count_nonzero/Cast:y:0"
+      attr {
+        key: "Toutput_types"
+        value {
+          list {
+            type: DT_INT32
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_OPTIONAL
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_INT32
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "OptionalFromValue_3"
+      op: "OptionalFromValue"
+      input: "count_nonzero/Const:output:0"
+      attr {
+        key: "Toutput_types"
+        value {
+          list {
+            type: DT_INT32
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_OPTIONAL
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_INT32
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "OptionalFromValue_4"
+      op: "OptionalFromValue"
+      input: "count_nonzero/nonzero_count:output:0"
+      attr {
+        key: "Toutput_types"
+        value {
+          list {
+            type: DT_INT32
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_OPTIONAL
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_INT32
+              }
+            }
+          }
+        }
+      }
+    }
+    ret {
+      key: "cast"
+      value: "Cast:y:0"
+    }
+    ret {
+      key: "optionalfromvalue"
+      value: "OptionalFromValue:optional:0"
+    }
+    ret {
+      key: "optionalfromvalue_1"
+      value: "OptionalFromValue_1:optional:0"
+    }
+    ret {
+      key: "optionalfromvalue_2"
+      value: "OptionalFromValue_2:optional:0"
+    }
+    ret {
+      key: "optionalfromvalue_3"
+      value: "OptionalFromValue_3:optional:0"
+    }
+    ret {
+      key: "optionalfromvalue_4"
+      value: "OptionalFromValue_4:optional:0"
+    }
+    attr {
+      key: "_input_shapes"
+      value {
+        list {
+          shape {
+            dim {
+              size: -1
+            }
+            dim {
+              size: 10
+            }
+          }
+        }
+      }
+    }
+    arg_attr {
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+                dim {
+                  size: -1
+                }
+                dim {
+                  size: 10
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  function {
+    signature {
+      name: "__inference_Dataset_flat_map_read_one_file_896"
+      input_arg {
+        name: "args_0"
+        type: DT_STRING
+      }
+      output_arg {
+        name: "identity"
+        type: DT_VARIANT
+      }
+      is_stateful: true
+      control_output: "TFRecordDataset"
+    }
+    node_def {
+      name: "compression_type"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
             }
           }
         }
@@ -18646,23 +19120,20 @@ library {
           tensor {
             dtype: DT_STRING
             tensor_shape {
-              dim {
-              }
             }
+            string_val: ""
           }
         }
       }
     }
     node_def {
-      name: "ParseSingleExample/ParseExample/Const_1"
+      name: "buffer_size"
       op: "Const"
       attr {
         key: "_output_shapes"
         value {
           list {
             shape {
-              dim {
-              }
             }
           }
         }
@@ -18679,301 +19150,18 @@ library {
           tensor {
             dtype: DT_INT64
             tensor_shape {
-              dim {
-              }
             }
+            int64_val: 8388608
           }
         }
       }
     }
     node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/names"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 2
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-                size: 2
-              }
-            }
-            string_val: "image"
-            string_val: "label"
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2"
-      op: "ParseExampleV2"
+      name: "TFRecordDataset"
+      op: "TFRecordDataset"
       input: "args_0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/names:output:0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys:output:0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys:output:0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys:output:0"
-      input: "ParseSingleExample/ParseExample/Const:output:0"
-      input: "ParseSingleExample/ParseExample/Const_1:output:0"
-      attr {
-        key: "Tdense"
-        value {
-          list {
-            type: DT_STRING
-            type: DT_INT64
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dense_shapes"
-        value {
-          list {
-            shape {
-            }
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "num_sparse"
-        value {
-          i: 0
-        }
-      }
-      attr {
-        key: "ragged_split_types"
-        value {
-          list {
-          }
-        }
-      }
-      attr {
-        key: "ragged_value_types"
-        value {
-          list {
-          }
-        }
-      }
-      attr {
-        key: "sparse_types"
-        value {
-          list {
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape/shape"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_FLOAT
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_FLOAT
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape/shape_1"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT32
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape"
-      op: "Reshape"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:0"
-      input: "Reshape/shape_1:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "Tshape"
-        value {
-          type: DT_INT32
-        }
-      }
+      input: "compression_type:output:0"
+      input: "buffer_size:output:0"
       attr {
         key: "_output_shapes"
         value {
@@ -18983,149 +19171,34 @@ library {
           }
         }
       }
-    }
-    node_def {
-      name: "Reshape_1/shape"
-      op: "Const"
       attr {
-        key: "_output_shapes"
+        key: "metadata"
         value {
-          list {
-            shape {
-              dim {
-              }
+          s: ""
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_DATASET
+          args {
+            type_id: TFT_TENSOR
+            args {
+              type_id: TFT_STRING
             }
           }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_FLOAT
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_FLOAT
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape_1/shape_1"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT32
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape_1"
-      op: "Reshape"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:1"
-      input: "Reshape_1/shape_1:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "Tshape"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "decode_image/DecodeImage"
-      op: "DecodeImage"
-      input: "Reshape:output:0"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 28
-              }
-              dim {
-                size: 28
-              }
-              dim {
-                size: 1
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "channels"
-        value {
-          i: 1
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_UINT8
-        }
-      }
-      attr {
-        key: "expand_animations"
-        value {
-          b: true
         }
       }
     }
     node_def {
       name: "Identity"
       op: "Identity"
-      input: "decode_image/DecodeImage:image:0"
+      input: "TFRecordDataset:handle:0"
+      input: "^NoOp"
       attr {
         key: "T"
         value {
-          type: DT_UINT8
+          type: DT_VARIANT
         }
       }
       attr {
@@ -19133,36 +19206,37 @@ library {
         value {
           list {
             shape {
-              dim {
-                size: 28
-              }
-              dim {
-                size: 28
-              }
-              dim {
-                size: 1
-              }
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_DATASET
+          args {
+            type_id: TFT_TENSOR
+            args {
+              type_id: TFT_STRING
             }
           }
         }
       }
     }
     node_def {
-      name: "Identity_1"
-      op: "Identity"
-      input: "Reshape_1:output:0"
+      name: "NoOp"
+      op: "NoOp"
+      input: "^TFRecordDataset"
       attr {
-        key: "T"
+        key: "_acd_function_control_output"
         value {
-          type: DT_INT64
+          b: true
         }
       }
       attr {
         key: "_output_shapes"
         value {
           list {
-            shape {
-            }
           }
         }
       }
@@ -19170,10 +19244,6 @@ library {
     ret {
       key: "identity"
       value: "Identity:output:0"
-    }
-    ret {
-      key: "identity_1"
-      value: "Identity_1:output:0"
     }
     attr {
       key: "_input_shapes"
@@ -19189,6 +19259,10 @@ library {
       value {
         b: true
       }
+    }
+    control_ret {
+      key: "TFRecordDataset"
+      value: "TFRecordDataset"
     }
     arg_attr {
       value {
@@ -19212,613 +19286,7 @@ library {
   }
   function {
     signature {
-      name: "__inference_Dataset_map_parse_and_decode_79"
-      input_arg {
-        name: "args_0"
-        type: DT_STRING
-      }
-      output_arg {
-        name: "identity"
-        type: DT_UINT8
-      }
-      output_arg {
-        name: "identity_1"
-        type: DT_INT64
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/Const"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/Const_1"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT64
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/names"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 2
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-                size: 2
-              }
-            }
-            string_val: "image"
-            string_val: "label"
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "ParseSingleExample/ParseExample/ParseExampleV2"
-      op: "ParseExampleV2"
-      input: "args_0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/names:output:0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys:output:0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys:output:0"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys:output:0"
-      input: "ParseSingleExample/ParseExample/Const:output:0"
-      input: "ParseSingleExample/ParseExample/Const_1:output:0"
-      attr {
-        key: "Tdense"
-        value {
-          list {
-            type: DT_STRING
-            type: DT_INT64
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dense_shapes"
-        value {
-          list {
-            shape {
-            }
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "num_sparse"
-        value {
-          i: 0
-        }
-      }
-      attr {
-        key: "ragged_split_types"
-        value {
-          list {
-          }
-        }
-      }
-      attr {
-        key: "ragged_value_types"
-        value {
-          list {
-          }
-        }
-      }
-      attr {
-        key: "sparse_types"
-        value {
-          list {
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape/shape"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_FLOAT
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_FLOAT
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape/shape_1"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT32
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape"
-      op: "Reshape"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:0"
-      input: "Reshape/shape_1:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "Tshape"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape_1/shape"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_FLOAT
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_FLOAT
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape_1/shape_1"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT32
-            tensor_shape {
-              dim {
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Reshape_1"
-      op: "Reshape"
-      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:1"
-      input: "Reshape_1/shape_1:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "Tshape"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "decode_image/DecodeImage"
-      op: "DecodeImage"
-      input: "Reshape:output:0"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 28
-              }
-              dim {
-                size: 28
-              }
-              dim {
-                size: 1
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "channels"
-        value {
-          i: 1
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_UINT8
-        }
-      }
-      attr {
-        key: "expand_animations"
-        value {
-          b: true
-        }
-      }
-    }
-    node_def {
-      name: "Identity"
-      op: "Identity"
-      input: "decode_image/DecodeImage:image:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_UINT8
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 28
-              }
-              dim {
-                size: 28
-              }
-              dim {
-                size: 1
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Identity_1"
-      op: "Identity"
-      input: "Reshape_1:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-    }
-    ret {
-      key: "identity"
-      value: "Identity:output:0"
-    }
-    ret {
-      key: "identity_1"
-      value: "Identity_1:output:0"
-    }
-    attr {
-      key: "_input_shapes"
-      value {
-        list {
-          shape {
-          }
-        }
-      }
-    }
-    attr {
-      key: "_tf_data_function"
-      value {
-        b: true
-      }
-    }
-    arg_attr {
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-        attr {
-          key: "_user_specified_name"
-          value {
-            s: "args_0"
-          }
-        }
-      }
-    }
-  }
-  function {
-    signature {
-      name: "dnn_zero_fraction_2_cond_false_345"
+      name: "dnn_zero_fraction_2_cond_false_1136"
       input_arg {
         name: "count_nonzero_notequal_dnn_logits_biasadd"
         type: DT_FLOAT
@@ -20240,429 +19708,7 @@ library {
   }
   function {
     signature {
-      name: "dnn_zero_fraction_cond_false_206"
-      input_arg {
-        name: "count_nonzero_notequal_dnn_hiddenlayer_0_relu"
-        type: DT_FLOAT
-      }
-      output_arg {
-        name: "count_nonzero_nonzero_count"
-        type: DT_INT64
-      }
-      output_arg {
-        name: "optionalfromvalue"
-        type: DT_VARIANT
-      }
-      output_arg {
-        name: "optionalfromvalue_1"
-        type: DT_VARIANT
-      }
-      output_arg {
-        name: "optionalfromvalue_2"
-        type: DT_VARIANT
-      }
-      output_arg {
-        name: "optionalfromvalue_3"
-        type: DT_VARIANT
-      }
-      output_arg {
-        name: "optionalnone"
-        type: DT_VARIANT
-      }
-    }
-    node_def {
-      name: "count_nonzero/zeros"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_FLOAT
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_FLOAT
-            tensor_shape {
-            }
-            float_val: 0.0
-          }
-        }
-      }
-    }
-    node_def {
-      name: "count_nonzero/NotEqual"
-      op: "NotEqual"
-      input: "count_nonzero_notequal_dnn_hiddenlayer_0_relu"
-      input: "count_nonzero/zeros:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_FLOAT
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: -1
-              }
-              dim {
-                size: 32
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "incompatible_shape_error"
-        value {
-          b: true
-        }
-      }
-    }
-    node_def {
-      name: "count_nonzero/Cast"
-      op: "Cast"
-      input: "count_nonzero/NotEqual:z:0"
-      attr {
-        key: "DstT"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "SrcT"
-        value {
-          type: DT_BOOL
-        }
-      }
-      attr {
-        key: "Truncate"
-        value {
-          b: false
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: -1
-              }
-              dim {
-                size: 32
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "count_nonzero/Const"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 2
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT32
-            tensor_shape {
-              dim {
-                size: 2
-              }
-            }
-            tensor_content: "\000\000\000\000\001\000\000\000"
-          }
-        }
-      }
-    }
-    node_def {
-      name: "count_nonzero/nonzero_count"
-      op: "Sum"
-      input: "count_nonzero/Cast:y:0"
-      input: "count_nonzero/Const:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "Tidx"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "keep_dims"
-        value {
-          b: false
-        }
-      }
-    }
-    node_def {
-      name: "OptionalFromValue"
-      op: "OptionalFromValue"
-      input: "count_nonzero/zeros:output:0"
-      attr {
-        key: "Toutput_types"
-        value {
-          list {
-            type: DT_FLOAT
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_OPTIONAL
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_FLOAT
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "OptionalFromValue_1"
-      op: "OptionalFromValue"
-      input: "count_nonzero/NotEqual:z:0"
-      attr {
-        key: "Toutput_types"
-        value {
-          list {
-            type: DT_BOOL
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_OPTIONAL
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_BOOL
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "OptionalFromValue_2"
-      op: "OptionalFromValue"
-      input: "count_nonzero/Cast:y:0"
-      attr {
-        key: "Toutput_types"
-        value {
-          list {
-            type: DT_INT64
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_OPTIONAL
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_INT64
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "OptionalFromValue_3"
-      op: "OptionalFromValue"
-      input: "count_nonzero/Const:output:0"
-      attr {
-        key: "Toutput_types"
-        value {
-          list {
-            type: DT_INT32
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_OPTIONAL
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_INT32
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "OptionalNone"
-      op: "OptionalNone"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-    }
-    ret {
-      key: "count_nonzero_nonzero_count"
-      value: "count_nonzero/nonzero_count:output:0"
-    }
-    ret {
-      key: "optionalfromvalue"
-      value: "OptionalFromValue:optional:0"
-    }
-    ret {
-      key: "optionalfromvalue_1"
-      value: "OptionalFromValue_1:optional:0"
-    }
-    ret {
-      key: "optionalfromvalue_2"
-      value: "OptionalFromValue_2:optional:0"
-    }
-    ret {
-      key: "optionalfromvalue_3"
-      value: "OptionalFromValue_3:optional:0"
-    }
-    ret {
-      key: "optionalnone"
-      value: "OptionalNone:optional:0"
-    }
-    attr {
-      key: "_input_shapes"
-      value {
-        list {
-          shape {
-            dim {
-              size: -1
-            }
-            dim {
-              size: 32
-            }
-          }
-        }
-      }
-    }
-    arg_attr {
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-                dim {
-                  size: -1
-                }
-                dim {
-                  size: 32
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  function {
-    signature {
-      name: "dnn_zero_fraction_1_cond_false_276"
+      name: "dnn_zero_fraction_1_cond_false_1067"
       input_arg {
         name: "count_nonzero_notequal_dnn_hiddenlayer_1_relu"
         type: DT_FLOAT
@@ -21084,7 +20130,425 @@ library {
   }
   function {
     signature {
-      name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_true_460"
+      name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_false_1277"
+      input_arg {
+        name: "assert_head_losses_check_label_range_assert_non_negative_assert_less_equal_all"
+        type: DT_BOOL
+      }
+      input_arg {
+        name: "assert_head_losses_labels"
+        type: DT_INT64
+      }
+      output_arg {
+        name: "identity"
+        type: DT_BOOL
+      }
+      is_stateful: true
+    }
+    node_def {
+      name: "Assert/data_0"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: "Labels must be >= 0.  "
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Assert/data_1"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: "Condition x >= 0 did not hold element-wise:"
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Assert/data_2"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: "x (head/losses/labels:0) = "
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Assert"
+      op: "Assert"
+      input: "assert_head_losses_check_label_range_assert_non_negative_assert_less_equal_all"
+      input: "Assert/data_0:output:0"
+      input: "Assert/data_1:output:0"
+      input: "Assert/data_2:output:0"
+      input: "assert_head_losses_labels"
+      attr {
+        key: "T"
+        value {
+          list {
+            type: DT_STRING
+            type: DT_STRING
+            type: DT_STRING
+            type: DT_INT64
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+          }
+        }
+      }
+      attr {
+        key: "summarize"
+        value {
+          i: 3
+        }
+      }
+    }
+    node_def {
+      name: "Identity"
+      op: "Identity"
+      input: "assert_head_losses_check_label_range_assert_non_negative_assert_less_equal_all"
+      input: "^Assert"
+      attr {
+        key: "T"
+        value {
+          type: DT_BOOL
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    ret {
+      key: "identity"
+      value: "Identity:output:0"
+    }
+    attr {
+      key: "_input_shapes"
+      value {
+        list {
+          shape {
+          }
+          shape {
+            dim {
+              size: -1
+            }
+            dim {
+              size: 1
+            }
+          }
+        }
+      }
+    }
+    arg_attr {
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+      }
+    }
+    arg_attr {
+      key: 1
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+                dim {
+                  size: -1
+                }
+                dim {
+                  size: 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  function {
+    signature {
+      name: "__inference_Dataset_flat_map_read_one_file_838"
+      input_arg {
+        name: "args_0"
+        type: DT_STRING
+      }
+      output_arg {
+        name: "identity"
+        type: DT_VARIANT
+      }
+      is_stateful: true
+      control_output: "TFRecordDataset"
+    }
+    node_def {
+      name: "compression_type"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: ""
+          }
+        }
+      }
+    }
+    node_def {
+      name: "buffer_size"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT64
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT64
+            tensor_shape {
+            }
+            int64_val: 8388608
+          }
+        }
+      }
+    }
+    node_def {
+      name: "TFRecordDataset"
+      op: "TFRecordDataset"
+      input: "args_0"
+      input: "compression_type:output:0"
+      input: "buffer_size:output:0"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "metadata"
+        value {
+          s: ""
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_DATASET
+          args {
+            type_id: TFT_TENSOR
+            args {
+              type_id: TFT_STRING
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Identity"
+      op: "Identity"
+      input: "TFRecordDataset:handle:0"
+      input: "^NoOp"
+      attr {
+        key: "T"
+        value {
+          type: DT_VARIANT
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_DATASET
+          args {
+            type_id: TFT_TENSOR
+            args {
+              type_id: TFT_STRING
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "NoOp"
+      op: "NoOp"
+      input: "^TFRecordDataset"
+      attr {
+        key: "_acd_function_control_output"
+        value {
+          b: true
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+          }
+        }
+      }
+    }
+    ret {
+      key: "identity"
+      value: "Identity:output:0"
+    }
+    attr {
+      key: "_input_shapes"
+      value {
+        list {
+          shape {
+          }
+        }
+      }
+    }
+    attr {
+      key: "_tf_data_function"
+      value {
+        b: true
+      }
+    }
+    control_ret {
+      key: "TFRecordDataset"
+      value: "TFRecordDataset"
+    }
+    arg_attr {
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+        attr {
+          key: "_user_specified_name"
+          value {
+            s: "args_0"
+          }
+        }
+      }
+    }
+  }
+  function {
+    signature {
+      name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_true_1251"
       input_arg {
         name: "identity_head_losses_check_label_range_assert_less_equal_all"
         type: DT_BOOL
@@ -21207,13 +20671,1005 @@ library {
   }
   function {
     signature {
-      name: "dnn_zero_fraction_cond_true_205"
+      name: "__inference_Dataset_map_parse_and_decode_928"
+      input_arg {
+        name: "args_0"
+        type: DT_STRING
+      }
+      output_arg {
+        name: "identity"
+        type: DT_UINT8
+      }
+      output_arg {
+        name: "identity_1"
+        type: DT_INT64
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/Const"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/Const_1"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT64
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT64
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/names"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: 2
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+              dim {
+                size: 2
+              }
+            }
+            string_val: "image"
+            string_val: "label"
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/ParseExampleV2"
+      op: "ParseExampleV2"
+      input: "args_0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/names:output:0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys:output:0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys:output:0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys:output:0"
+      input: "ParseSingleExample/ParseExample/Const:output:0"
+      input: "ParseSingleExample/ParseExample/Const_1:output:0"
+      attr {
+        key: "Tdense"
+        value {
+          list {
+            type: DT_STRING
+            type: DT_INT64
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dense_shapes"
+        value {
+          list {
+            shape {
+            }
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "num_sparse"
+        value {
+          i: 0
+        }
+      }
+      attr {
+        key: "ragged_split_types"
+        value {
+          list {
+          }
+        }
+      }
+      attr {
+        key: "ragged_value_types"
+        value {
+          list {
+          }
+        }
+      }
+      attr {
+        key: "sparse_types"
+        value {
+          list {
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape/shape"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_FLOAT
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_FLOAT
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape/shape_1"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT32
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape"
+      op: "Reshape"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:0"
+      input: "Reshape/shape_1:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "Tshape"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape_1/shape"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_FLOAT
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_FLOAT
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape_1/shape_1"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT32
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape_1"
+      op: "Reshape"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:1"
+      input: "Reshape_1/shape_1:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_INT64
+        }
+      }
+      attr {
+        key: "Tshape"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "decode_image/DecodeImage"
+      op: "DecodeImage"
+      input: "Reshape:output:0"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: 28
+              }
+              dim {
+                size: 28
+              }
+              dim {
+                size: 1
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "channels"
+        value {
+          i: 1
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_UINT8
+        }
+      }
+      attr {
+        key: "expand_animations"
+        value {
+          b: true
+        }
+      }
+    }
+    node_def {
+      name: "Identity"
+      op: "Identity"
+      input: "decode_image/DecodeImage:image:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_UINT8
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: 28
+              }
+              dim {
+                size: 28
+              }
+              dim {
+                size: 1
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Identity_1"
+      op: "Identity"
+      input: "Reshape_1:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_INT64
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    ret {
+      key: "identity"
+      value: "Identity:output:0"
+    }
+    ret {
+      key: "identity_1"
+      value: "Identity_1:output:0"
+    }
+    attr {
+      key: "_input_shapes"
+      value {
+        list {
+          shape {
+          }
+        }
+      }
+    }
+    attr {
+      key: "_tf_data_function"
+      value {
+        b: true
+      }
+    }
+    arg_attr {
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+        attr {
+          key: "_user_specified_name"
+          value {
+            s: "args_0"
+          }
+        }
+      }
+    }
+  }
+  function {
+    signature {
+      name: "__inference_Dataset_interleave_classfunctools.partial_841"
+      input_arg {
+        name: "args_0"
+        type: DT_STRING
+      }
+      input_arg {
+        name: "args_1"
+        type: DT_STRING
+      }
+      input_arg {
+        name: "args_2"
+        type: DT_INT64
+      }
+      input_arg {
+        name: "args_3"
+        type: DT_INT64
+      }
+      output_arg {
+        name: "identity"
+        type: DT_VARIANT
+      }
+      is_stateful: true
+      control_output: "TensorSliceDataset"
+    }
+    node_def {
+      name: "flat_filenames/shape"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: 1
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT32
+            tensor_shape {
+              dim {
+                size: 1
+              }
+            }
+            int_val: -1
+          }
+        }
+      }
+    }
+    node_def {
+      name: "flat_filenames"
+      op: "Reshape"
+      input: "args_0"
+      input: "flat_filenames/shape:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "Tshape"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: 1
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "TensorSliceDataset"
+      op: "TensorSliceDataset"
+      input: "flat_filenames:output:0"
+      attr {
+        key: "Toutput_types"
+        value {
+          list {
+            type: DT_STRING
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "is_files"
+        value {
+          b: true
+        }
+      }
+      attr {
+        key: "metadata"
+        value {
+          s: ""
+        }
+      }
+      attr {
+        key: "output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_DATASET
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_STRING
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "FlatMapDataset"
+      op: "FlatMapDataset"
+      input: "TensorSliceDataset:handle:0"
+      attr {
+        key: "Targuments"
+        value {
+          list {
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "f"
+        value {
+          func {
+            name: "__inference_Dataset_flat_map_read_one_file_838"
+            attr {
+              key: "_tf_data_function"
+              value {
+                b: true
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "metadata"
+        value {
+          s: ""
+        }
+      }
+      attr {
+        key: "output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "output_types"
+        value {
+          list {
+            type: DT_STRING
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_DATASET
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_STRING
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Identity"
+      op: "Identity"
+      input: "FlatMapDataset:handle:0"
+      input: "^NoOp"
+      attr {
+        key: "T"
+        value {
+          type: DT_VARIANT
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      experimental_type {
+        type_id: TFT_PRODUCT
+        args {
+          type_id: TFT_DATASET
+          args {
+            type_id: TFT_PRODUCT
+            args {
+              type_id: TFT_TENSOR
+              args {
+                type_id: TFT_STRING
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "NoOp"
+      op: "NoOp"
+      input: "^TensorSliceDataset"
+      attr {
+        key: "_acd_function_control_output"
+        value {
+          b: true
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+          }
+        }
+      }
+    }
+    ret {
+      key: "identity"
+      value: "Identity:output:0"
+    }
+    attr {
+      key: "_input_shapes"
+      value {
+        list {
+          shape {
+          }
+          shape {
+          }
+          shape {
+          }
+          shape {
+          }
+        }
+      }
+    }
+    attr {
+      key: "_tf_data_function"
+      value {
+        b: true
+      }
+    }
+    control_ret {
+      key: "TensorSliceDataset"
+      value: "TensorSliceDataset"
+    }
+    arg_attr {
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+        attr {
+          key: "_user_specified_name"
+          value {
+            s: "args_0"
+          }
+        }
+      }
+    }
+    arg_attr {
+      key: 1
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+        attr {
+          key: "_user_specified_name"
+          value {
+            s: "args_1"
+          }
+        }
+      }
+    }
+    arg_attr {
+      key: 2
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+        attr {
+          key: "_user_specified_name"
+          value {
+            s: "args_2"
+          }
+        }
+      }
+    }
+    arg_attr {
+      key: 3
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+        attr {
+          key: "_user_specified_name"
+          value {
+            s: "args_3"
+          }
+        }
+      }
+    }
+  }
+  function {
+    signature {
+      name: "dnn_zero_fraction_cond_false_997"
       input_arg {
         name: "count_nonzero_notequal_dnn_hiddenlayer_0_relu"
         type: DT_FLOAT
       }
       output_arg {
-        name: "cast"
+        name: "count_nonzero_nonzero_count"
         type: DT_INT64
       }
       output_arg {
@@ -21233,7 +21689,7 @@ library {
         type: DT_VARIANT
       }
       output_arg {
-        name: "optionalfromvalue_4"
+        name: "optionalnone"
         type: DT_VARIANT
       }
     }
@@ -21307,7 +21763,7 @@ library {
       attr {
         key: "DstT"
         value {
-          type: DT_INT32
+          type: DT_INT64
         }
       }
       attr {
@@ -21382,7 +21838,7 @@ library {
       attr {
         key: "T"
         value {
-          type: DT_INT32
+          type: DT_INT64
         }
       }
       attr {
@@ -21404,38 +21860,6 @@ library {
         key: "keep_dims"
         value {
           b: false
-        }
-      }
-    }
-    node_def {
-      name: "Cast"
-      op: "Cast"
-      input: "count_nonzero/nonzero_count:output:0"
-      attr {
-        key: "DstT"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "SrcT"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "Truncate"
-        value {
-          b: false
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
         }
       }
     }
@@ -21521,7 +21945,7 @@ library {
         key: "Toutput_types"
         value {
           list {
-            type: DT_INT32
+            type: DT_INT64
           }
         }
       }
@@ -21543,7 +21967,7 @@ library {
             args {
               type_id: TFT_TENSOR
               args {
-                type_id: TFT_INT32
+                type_id: TFT_INT64
               }
             }
           }
@@ -21588,17 +22012,8 @@ library {
       }
     }
     node_def {
-      name: "OptionalFromValue_4"
-      op: "OptionalFromValue"
-      input: "count_nonzero/nonzero_count:output:0"
-      attr {
-        key: "Toutput_types"
-        value {
-          list {
-            type: DT_INT32
-          }
-        }
-      }
+      name: "OptionalNone"
+      op: "OptionalNone"
       attr {
         key: "_output_shapes"
         value {
@@ -21608,25 +22023,10 @@ library {
           }
         }
       }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_OPTIONAL
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_INT32
-              }
-            }
-          }
-        }
-      }
     }
     ret {
-      key: "cast"
-      value: "Cast:y:0"
+      key: "count_nonzero_nonzero_count"
+      value: "count_nonzero/nonzero_count:output:0"
     }
     ret {
       key: "optionalfromvalue"
@@ -21645,8 +22045,8 @@ library {
       value: "OptionalFromValue_3:optional:0"
     }
     ret {
-      key: "optionalfromvalue_4"
-      value: "OptionalFromValue_4:optional:0"
+      key: "optionalnone"
+      value: "OptionalNone:optional:0"
     }
     attr {
       key: "_input_shapes"
@@ -21685,33 +22085,30 @@ library {
   }
   function {
     signature {
-      name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_false_461"
+      name: "__inference_Dataset_map_parse_and_decode_870"
       input_arg {
-        name: "assert_head_losses_check_label_range_assert_less_equal_all"
-        type: DT_BOOL
-      }
-      input_arg {
-        name: "assert_head_losses_labels"
-        type: DT_INT64
-      }
-      input_arg {
-        name: "assert_head_losses_check_label_range_const"
-        type: DT_INT64
+        name: "args_0"
+        type: DT_STRING
       }
       output_arg {
         name: "identity"
-        type: DT_BOOL
+        type: DT_UINT8
       }
-      is_stateful: true
+      output_arg {
+        name: "identity_1"
+        type: DT_INT64
+      }
     }
     node_def {
-      name: "Assert/data_0"
+      name: "ParseSingleExample/ParseExample/Const"
       op: "Const"
       attr {
         key: "_output_shapes"
         value {
           list {
             shape {
+              dim {
+              }
             }
           }
         }
@@ -21728,20 +22125,56 @@ library {
           tensor {
             dtype: DT_STRING
             tensor_shape {
+              dim {
+              }
             }
-            string_val: "Labels must be <= n_classes - 1"
           }
         }
       }
     }
     node_def {
-      name: "Assert/data_1"
+      name: "ParseSingleExample/ParseExample/Const_1"
       op: "Const"
       attr {
         key: "_output_shapes"
         value {
           list {
             shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT64
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT64
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/names"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
             }
           }
         }
@@ -21758,20 +22191,23 @@ library {
           tensor {
             dtype: DT_STRING
             tensor_shape {
+              dim {
+              }
             }
-            string_val: "Condition x <= y did not hold element-wise:"
           }
         }
       }
     }
     node_def {
-      name: "Assert/data_2"
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys"
       op: "Const"
       attr {
         key: "_output_shapes"
         value {
           list {
             shape {
+              dim {
+              }
             }
           }
         }
@@ -21788,20 +22224,24 @@ library {
           tensor {
             dtype: DT_STRING
             tensor_shape {
+              dim {
+              }
             }
-            string_val: "x (head/losses/labels:0) = "
           }
         }
       }
     }
     node_def {
-      name: "Assert/data_4"
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys"
       op: "Const"
       attr {
         key: "_output_shapes"
         value {
           list {
             shape {
+              dim {
+                size: 2
+              }
             }
           }
         }
@@ -21818,58 +22258,382 @@ library {
           tensor {
             dtype: DT_STRING
             tensor_shape {
+              dim {
+                size: 2
+              }
             }
-            string_val: "y (head/losses/check_label_range/Const:0) = "
+            string_val: "image"
+            string_val: "label"
           }
         }
       }
     }
     node_def {
-      name: "Assert"
-      op: "Assert"
-      input: "assert_head_losses_check_label_range_assert_less_equal_all"
-      input: "Assert/data_0:output:0"
-      input: "Assert/data_1:output:0"
-      input: "Assert/data_2:output:0"
-      input: "assert_head_losses_labels"
-      input: "Assert/data_4:output:0"
-      input: "assert_head_losses_check_label_range_const"
+      name: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "ParseSingleExample/ParseExample/ParseExampleV2"
+      op: "ParseExampleV2"
+      input: "args_0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/names:output:0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/sparse_keys:output:0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/dense_keys:output:0"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2/ragged_keys:output:0"
+      input: "ParseSingleExample/ParseExample/Const:output:0"
+      input: "ParseSingleExample/ParseExample/Const_1:output:0"
+      attr {
+        key: "Tdense"
+        value {
+          list {
+            type: DT_STRING
+            type: DT_INT64
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dense_shapes"
+        value {
+          list {
+            shape {
+            }
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "num_sparse"
+        value {
+          i: 0
+        }
+      }
+      attr {
+        key: "ragged_split_types"
+        value {
+          list {
+          }
+        }
+      }
+      attr {
+        key: "ragged_value_types"
+        value {
+          list {
+          }
+        }
+      }
+      attr {
+        key: "sparse_types"
+        value {
+          list {
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape/shape"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_FLOAT
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_FLOAT
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape/shape_1"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT32
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape"
+      op: "Reshape"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:0"
+      input: "Reshape/shape_1:output:0"
       attr {
         key: "T"
         value {
-          list {
-            type: DT_STRING
-            type: DT_STRING
-            type: DT_STRING
-            type: DT_INT64
-            type: DT_STRING
-            type: DT_INT64
-          }
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "Tshape"
+        value {
+          type: DT_INT32
         }
       }
       attr {
         key: "_output_shapes"
         value {
           list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape_1/shape"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
           }
         }
       }
       attr {
-        key: "summarize"
+        key: "dtype"
         value {
-          i: 3
+          type: DT_FLOAT
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_FLOAT
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape_1/shape_1"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_INT32
+            tensor_shape {
+              dim {
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Reshape_1"
+      op: "Reshape"
+      input: "ParseSingleExample/ParseExample/ParseExampleV2:dense_values:1"
+      input: "Reshape_1/shape_1:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_INT64
+        }
+      }
+      attr {
+        key: "Tshape"
+        value {
+          type: DT_INT32
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "decode_image/DecodeImage"
+      op: "DecodeImage"
+      input: "Reshape:output:0"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: 28
+              }
+              dim {
+                size: 28
+              }
+              dim {
+                size: 1
+              }
+            }
+          }
+        }
+      }
+      attr {
+        key: "channels"
+        value {
+          i: 1
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_UINT8
+        }
+      }
+      attr {
+        key: "expand_animations"
+        value {
+          b: true
         }
       }
     }
     node_def {
       name: "Identity"
       op: "Identity"
-      input: "assert_head_losses_check_label_range_assert_less_equal_all"
-      input: "^Assert"
+      input: "decode_image/DecodeImage:image:0"
       attr {
         key: "T"
         value {
-          type: DT_BOOL
+          type: DT_UINT8
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+              dim {
+                size: 28
+              }
+              dim {
+                size: 28
+              }
+              dim {
+                size: 1
+              }
+            }
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Identity_1"
+      op: "Identity"
+      input: "Reshape_1:output:0"
+      attr {
+        key: "T"
+        value {
+          type: DT_INT64
         }
       }
       attr {
@@ -21886,23 +22650,23 @@ library {
       key: "identity"
       value: "Identity:output:0"
     }
+    ret {
+      key: "identity_1"
+      value: "Identity_1:output:0"
+    }
     attr {
       key: "_input_shapes"
       value {
         list {
           shape {
           }
-          shape {
-            dim {
-              size: -1
-            }
-            dim {
-              size: 1
-            }
-          }
-          shape {
-          }
         }
+      }
+    }
+    attr {
+      key: "_tf_data_function"
+      value {
+        b: true
       }
     }
     arg_attr {
@@ -21916,38 +22680,10 @@ library {
             }
           }
         }
-      }
-    }
-    arg_attr {
-      key: 1
-      value {
         attr {
-          key: "_output_shapes"
+          key: "_user_specified_name"
           value {
-            list {
-              shape {
-                dim {
-                  size: -1
-                }
-                dim {
-                  size: 1
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    arg_attr {
-      key: 2
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
+            s: "args_0"
           }
         }
       }
@@ -21955,7 +22691,7 @@ library {
   }
   function {
     signature {
-      name: "__inference_Dataset_interleave_classfunctools.partial_50"
+      name: "__inference_Dataset_interleave_classfunctools.partial_899"
       input_arg {
         name: "args_0"
         type: DT_STRING
@@ -22127,7 +22863,7 @@ library {
         key: "f"
         value {
           func {
-            name: "__inference_Dataset_flat_map_read_one_file_47"
+            name: "__inference_Dataset_flat_map_read_one_file_896"
             attr {
               key: "_tf_data_function"
               value {
@@ -22341,393 +23077,7 @@ library {
   }
   function {
     signature {
-      name: "__inference_Dataset_interleave_classfunctools.partial_108"
-      input_arg {
-        name: "args_0"
-        type: DT_STRING
-      }
-      input_arg {
-        name: "args_1"
-        type: DT_STRING
-      }
-      input_arg {
-        name: "args_2"
-        type: DT_INT64
-      }
-      input_arg {
-        name: "args_3"
-        type: DT_INT64
-      }
-      output_arg {
-        name: "identity"
-        type: DT_VARIANT
-      }
-      is_stateful: true
-      control_output: "TensorSliceDataset"
-    }
-    node_def {
-      name: "flat_filenames/shape"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 1
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT32
-            tensor_shape {
-              dim {
-                size: 1
-              }
-            }
-            int_val: -1
-          }
-        }
-      }
-    }
-    node_def {
-      name: "flat_filenames"
-      op: "Reshape"
-      input: "args_0"
-      input: "flat_filenames/shape:output:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "Tshape"
-        value {
-          type: DT_INT32
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-              dim {
-                size: 1
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "TensorSliceDataset"
-      op: "TensorSliceDataset"
-      input: "flat_filenames:output:0"
-      attr {
-        key: "Toutput_types"
-        value {
-          list {
-            type: DT_STRING
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "is_files"
-        value {
-          b: true
-        }
-      }
-      attr {
-        key: "metadata"
-        value {
-          s: ""
-        }
-      }
-      attr {
-        key: "output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_DATASET
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_STRING
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "FlatMapDataset"
-      op: "FlatMapDataset"
-      input: "TensorSliceDataset:handle:0"
-      attr {
-        key: "Targuments"
-        value {
-          list {
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "f"
-        value {
-          func {
-            name: "__inference_Dataset_flat_map_read_one_file_105"
-            attr {
-              key: "_tf_data_function"
-              value {
-                b: true
-              }
-            }
-          }
-        }
-      }
-      attr {
-        key: "metadata"
-        value {
-          s: ""
-        }
-      }
-      attr {
-        key: "output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "output_types"
-        value {
-          list {
-            type: DT_STRING
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_DATASET
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_STRING
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Identity"
-      op: "Identity"
-      input: "FlatMapDataset:handle:0"
-      input: "^NoOp"
-      attr {
-        key: "T"
-        value {
-          type: DT_VARIANT
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_DATASET
-          args {
-            type_id: TFT_PRODUCT
-            args {
-              type_id: TFT_TENSOR
-              args {
-                type_id: TFT_STRING
-              }
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "NoOp"
-      op: "NoOp"
-      input: "^TensorSliceDataset"
-      attr {
-        key: "_acd_function_control_output"
-        value {
-          b: true
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-          }
-        }
-      }
-    }
-    ret {
-      key: "identity"
-      value: "Identity:output:0"
-    }
-    attr {
-      key: "_input_shapes"
-      value {
-        list {
-          shape {
-          }
-          shape {
-          }
-          shape {
-          }
-          shape {
-          }
-        }
-      }
-    }
-    attr {
-      key: "_tf_data_function"
-      value {
-        b: true
-      }
-    }
-    control_ret {
-      key: "TensorSliceDataset"
-      value: "TensorSliceDataset"
-    }
-    arg_attr {
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-        attr {
-          key: "_user_specified_name"
-          value {
-            s: "args_0"
-          }
-        }
-      }
-    }
-    arg_attr {
-      key: 1
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-        attr {
-          key: "_user_specified_name"
-          value {
-            s: "args_1"
-          }
-        }
-      }
-    }
-    arg_attr {
-      key: 2
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-        attr {
-          key: "_user_specified_name"
-          value {
-            s: "args_2"
-          }
-        }
-      }
-    }
-    arg_attr {
-      key: 3
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-        attr {
-          key: "_user_specified_name"
-          value {
-            s: "args_3"
-          }
-        }
-      }
-    }
-  }
-  function {
-    signature {
-      name: "__inference_Dataset_map_preprocess_158"
+      name: "__inference_Dataset_map_preprocess_949"
       input_arg {
         name: "args_0"
         type: DT_UINT8
@@ -23213,51 +23563,30 @@ library {
   }
   function {
     signature {
-      name: "__inference_Dataset_flat_map_read_one_file_47"
+      name: "global_step_cond_true_805"
       input_arg {
-        name: "args_0"
-        type: DT_STRING
+        name: "read_readvariableop_global_step"
+        type: DT_RESOURCE
+        handle_data {
+          dtype: DT_INT64
+          shape {
+          }
+        }
+      }
+      input_arg {
+        name: "placeholder"
+        type: DT_INT64
       }
       output_arg {
         name: "identity"
-        type: DT_VARIANT
+        type: DT_INT64
       }
       is_stateful: true
-      control_output: "TFRecordDataset"
     }
     node_def {
-      name: "compression_type"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-            }
-            string_val: ""
-          }
-        }
-      }
-    }
-    node_def {
-      name: "buffer_size"
-      op: "Const"
+      name: "Read/ReadVariableOp"
+      op: "ReadVariableOp"
+      input: "read_readvariableop_global_step"
       attr {
         key: "_output_shapes"
         value {
@@ -23273,295 +23602,15 @@ library {
           type: DT_INT64
         }
       }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT64
-            tensor_shape {
-            }
-            int64_val: 8388608
-          }
-        }
-      }
-    }
-    node_def {
-      name: "TFRecordDataset"
-      op: "TFRecordDataset"
-      input: "args_0"
-      input: "compression_type:output:0"
-      input: "buffer_size:output:0"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "metadata"
-        value {
-          s: ""
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_DATASET
-          args {
-            type_id: TFT_TENSOR
-            args {
-              type_id: TFT_STRING
-            }
-          }
-        }
-      }
     }
     node_def {
       name: "Identity"
       op: "Identity"
-      input: "TFRecordDataset:handle:0"
-      input: "^NoOp"
+      input: "Read/ReadVariableOp:value:0"
       attr {
         key: "T"
         value {
-          type: DT_VARIANT
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_DATASET
-          args {
-            type_id: TFT_TENSOR
-            args {
-              type_id: TFT_STRING
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "NoOp"
-      op: "NoOp"
-      input: "^TFRecordDataset"
-      attr {
-        key: "_acd_function_control_output"
-        value {
-          b: true
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-          }
-        }
-      }
-    }
-    ret {
-      key: "identity"
-      value: "Identity:output:0"
-    }
-    attr {
-      key: "_input_shapes"
-      value {
-        list {
-          shape {
-          }
-        }
-      }
-    }
-    attr {
-      key: "_tf_data_function"
-      value {
-        b: true
-      }
-    }
-    control_ret {
-      key: "TFRecordDataset"
-      value: "TFRecordDataset"
-    }
-    arg_attr {
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-        attr {
-          key: "_user_specified_name"
-          value {
-            s: "args_0"
-          }
-        }
-      }
-    }
-  }
-  function {
-    signature {
-      name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_false_486"
-      input_arg {
-        name: "assert_head_losses_check_label_range_assert_non_negative_assert_less_equal_all"
-        type: DT_BOOL
-      }
-      input_arg {
-        name: "assert_head_losses_labels"
-        type: DT_INT64
-      }
-      output_arg {
-        name: "identity"
-        type: DT_BOOL
-      }
-      is_stateful: true
-    }
-    node_def {
-      name: "Assert/data_0"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-            }
-            string_val: "Labels must be >= 0.  "
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Assert/data_1"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-            }
-            string_val: "Condition x >= 0 did not hold element-wise:"
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Assert/data_2"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-            }
-            string_val: "x (head/losses/labels:0) = "
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Assert"
-      op: "Assert"
-      input: "assert_head_losses_check_label_range_assert_non_negative_assert_less_equal_all"
-      input: "Assert/data_0:output:0"
-      input: "Assert/data_1:output:0"
-      input: "Assert/data_2:output:0"
-      input: "assert_head_losses_labels"
-      attr {
-        key: "T"
-        value {
-          list {
-            type: DT_STRING
-            type: DT_STRING
-            type: DT_STRING
-            type: DT_INT64
-          }
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-          }
-        }
-      }
-      attr {
-        key: "summarize"
-        value {
-          i: 3
-        }
-      }
-    }
-    node_def {
-      name: "Identity"
-      op: "Identity"
-      input: "assert_head_losses_check_label_range_assert_non_negative_assert_less_equal_all"
-      input: "^Assert"
-      attr {
-        key: "T"
-        value {
-          type: DT_BOOL
+          type: DT_INT64
         }
       }
       attr {
@@ -23585,25 +23634,6 @@ library {
           shape {
           }
           shape {
-            dim {
-              size: -1
-            }
-            dim {
-              size: 1
-            }
-          }
-        }
-      }
-    }
-    arg_attr {
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
           }
         }
       }
@@ -23616,12 +23646,6 @@ library {
           value {
             list {
               shape {
-                dim {
-                  size: -1
-                }
-                dim {
-                  size: 1
-                }
               }
             }
           }
@@ -23631,7 +23655,7 @@ library {
   }
   function {
     signature {
-      name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_true_485"
+      name: "head_losses_check_label_range_assert_non_negative_assert_less_equal_Assert_AssertGuard_true_1276"
       input_arg {
         name: "identity_head_losses_check_label_range_assert_non_negative_assert_less_equal_all"
         type: DT_BOOL
@@ -23734,7 +23758,277 @@ library {
   }
   function {
     signature {
-      name: "dnn_zero_fraction_1_cond_true_275"
+      name: "head_losses_check_label_range_assert_less_equal_Assert_AssertGuard_false_1252"
+      input_arg {
+        name: "assert_head_losses_check_label_range_assert_less_equal_all"
+        type: DT_BOOL
+      }
+      input_arg {
+        name: "assert_head_losses_labels"
+        type: DT_INT64
+      }
+      input_arg {
+        name: "assert_head_losses_check_label_range_const"
+        type: DT_INT64
+      }
+      output_arg {
+        name: "identity"
+        type: DT_BOOL
+      }
+      is_stateful: true
+    }
+    node_def {
+      name: "Assert/data_0"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: "Labels must be <= n_classes - 1"
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Assert/data_1"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: "Condition x <= y did not hold element-wise:"
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Assert/data_2"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: "x (head/losses/labels:0) = "
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Assert/data_4"
+      op: "Const"
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+      attr {
+        key: "dtype"
+        value {
+          type: DT_STRING
+        }
+      }
+      attr {
+        key: "value"
+        value {
+          tensor {
+            dtype: DT_STRING
+            tensor_shape {
+            }
+            string_val: "y (head/losses/check_label_range/Const:0) = "
+          }
+        }
+      }
+    }
+    node_def {
+      name: "Assert"
+      op: "Assert"
+      input: "assert_head_losses_check_label_range_assert_less_equal_all"
+      input: "Assert/data_0:output:0"
+      input: "Assert/data_1:output:0"
+      input: "Assert/data_2:output:0"
+      input: "assert_head_losses_labels"
+      input: "Assert/data_4:output:0"
+      input: "assert_head_losses_check_label_range_const"
+      attr {
+        key: "T"
+        value {
+          list {
+            type: DT_STRING
+            type: DT_STRING
+            type: DT_STRING
+            type: DT_INT64
+            type: DT_STRING
+            type: DT_INT64
+          }
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+          }
+        }
+      }
+      attr {
+        key: "summarize"
+        value {
+          i: 3
+        }
+      }
+    }
+    node_def {
+      name: "Identity"
+      op: "Identity"
+      input: "assert_head_losses_check_label_range_assert_less_equal_all"
+      input: "^Assert"
+      attr {
+        key: "T"
+        value {
+          type: DT_BOOL
+        }
+      }
+      attr {
+        key: "_output_shapes"
+        value {
+          list {
+            shape {
+            }
+          }
+        }
+      }
+    }
+    ret {
+      key: "identity"
+      value: "Identity:output:0"
+    }
+    attr {
+      key: "_input_shapes"
+      value {
+        list {
+          shape {
+          }
+          shape {
+            dim {
+              size: -1
+            }
+            dim {
+              size: 1
+            }
+          }
+          shape {
+          }
+        }
+      }
+    }
+    arg_attr {
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+      }
+    }
+    arg_attr {
+      key: 1
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+                dim {
+                  size: -1
+                }
+                dim {
+                  size: 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    arg_attr {
+      key: 2
+      value {
+        attr {
+          key: "_output_shapes"
+          value {
+            list {
+              shape {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  function {
+    signature {
+      name: "dnn_zero_fraction_1_cond_true_1066"
       input_arg {
         name: "count_nonzero_notequal_dnn_hiddenlayer_1_relu"
         type: DT_FLOAT
@@ -24212,9 +24506,9 @@ library {
   }
   function {
     signature {
-      name: "dnn_zero_fraction_2_cond_true_344"
+      name: "dnn_zero_fraction_cond_true_996"
       input_arg {
-        name: "count_nonzero_notequal_dnn_logits_biasadd"
+        name: "count_nonzero_notequal_dnn_hiddenlayer_0_relu"
         type: DT_FLOAT
       }
       output_arg {
@@ -24275,7 +24569,7 @@ library {
     node_def {
       name: "count_nonzero/NotEqual"
       op: "NotEqual"
-      input: "count_nonzero_notequal_dnn_logits_biasadd"
+      input: "count_nonzero_notequal_dnn_hiddenlayer_0_relu"
       input: "count_nonzero/zeros:output:0"
       attr {
         key: "T"
@@ -24292,7 +24586,7 @@ library {
                 size: -1
               }
               dim {
-                size: 10
+                size: 32
               }
             }
           }
@@ -24336,7 +24630,7 @@ library {
                 size: -1
               }
               dim {
-                size: 10
+                size: 32
               }
             }
           }
@@ -24662,7 +24956,7 @@ library {
               size: -1
             }
             dim {
-              size: 10
+              size: 32
             }
           }
         }
@@ -24679,7 +24973,7 @@ library {
                   size: -1
                 }
                 dim {
-                  size: 10
+                  size: 32
                 }
               }
             }
@@ -24690,7 +24984,7 @@ library {
   }
   function {
     signature {
-      name: "global_step_cond_false_15"
+      name: "global_step_cond_false_806"
       input_arg {
         name: "placeholder"
         type: DT_RESOURCE
@@ -24707,300 +25001,6 @@ library {
     ret {
       key: "global_step_initializer_zeros"
       value: "global_step_initializer_zeros_0"
-    }
-    attr {
-      key: "_input_shapes"
-      value {
-        list {
-          shape {
-          }
-          shape {
-          }
-        }
-      }
-    }
-    arg_attr {
-      key: 1
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  function {
-    signature {
-      name: "__inference_Dataset_flat_map_read_one_file_105"
-      input_arg {
-        name: "args_0"
-        type: DT_STRING
-      }
-      output_arg {
-        name: "identity"
-        type: DT_VARIANT
-      }
-      is_stateful: true
-      control_output: "TFRecordDataset"
-    }
-    node_def {
-      name: "compression_type"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_STRING
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_STRING
-            tensor_shape {
-            }
-            string_val: ""
-          }
-        }
-      }
-    }
-    node_def {
-      name: "buffer_size"
-      op: "Const"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "value"
-        value {
-          tensor {
-            dtype: DT_INT64
-            tensor_shape {
-            }
-            int64_val: 8388608
-          }
-        }
-      }
-    }
-    node_def {
-      name: "TFRecordDataset"
-      op: "TFRecordDataset"
-      input: "args_0"
-      input: "compression_type:output:0"
-      input: "buffer_size:output:0"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "metadata"
-        value {
-          s: ""
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_DATASET
-          args {
-            type_id: TFT_TENSOR
-            args {
-              type_id: TFT_STRING
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "Identity"
-      op: "Identity"
-      input: "TFRecordDataset:handle:0"
-      input: "^NoOp"
-      attr {
-        key: "T"
-        value {
-          type: DT_VARIANT
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      experimental_type {
-        type_id: TFT_PRODUCT
-        args {
-          type_id: TFT_DATASET
-          args {
-            type_id: TFT_TENSOR
-            args {
-              type_id: TFT_STRING
-            }
-          }
-        }
-      }
-    }
-    node_def {
-      name: "NoOp"
-      op: "NoOp"
-      input: "^TFRecordDataset"
-      attr {
-        key: "_acd_function_control_output"
-        value {
-          b: true
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-          }
-        }
-      }
-    }
-    ret {
-      key: "identity"
-      value: "Identity:output:0"
-    }
-    attr {
-      key: "_input_shapes"
-      value {
-        list {
-          shape {
-          }
-        }
-      }
-    }
-    attr {
-      key: "_tf_data_function"
-      value {
-        b: true
-      }
-    }
-    control_ret {
-      key: "TFRecordDataset"
-      value: "TFRecordDataset"
-    }
-    arg_attr {
-      value {
-        attr {
-          key: "_output_shapes"
-          value {
-            list {
-              shape {
-              }
-            }
-          }
-        }
-        attr {
-          key: "_user_specified_name"
-          value {
-            s: "args_0"
-          }
-        }
-      }
-    }
-  }
-  function {
-    signature {
-      name: "global_step_cond_true_14"
-      input_arg {
-        name: "read_readvariableop_global_step"
-        type: DT_RESOURCE
-        handle_data {
-          dtype: DT_INT64
-          shape {
-          }
-        }
-      }
-      input_arg {
-        name: "placeholder"
-        type: DT_INT64
-      }
-      output_arg {
-        name: "identity"
-        type: DT_INT64
-      }
-      is_stateful: true
-    }
-    node_def {
-      name: "Read/ReadVariableOp"
-      op: "ReadVariableOp"
-      input: "read_readvariableop_global_step"
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-      attr {
-        key: "dtype"
-        value {
-          type: DT_INT64
-        }
-      }
-    }
-    node_def {
-      name: "Identity"
-      op: "Identity"
-      input: "Read/ReadVariableOp:value:0"
-      attr {
-        key: "T"
-        value {
-          type: DT_INT64
-        }
-      }
-      attr {
-        key: "_output_shapes"
-        value {
-          list {
-            shape {
-            }
-          }
-        }
-      }
-    }
-    ret {
-      key: "identity"
-      value: "Identity:output:0"
     }
     attr {
       key: "_input_shapes"
